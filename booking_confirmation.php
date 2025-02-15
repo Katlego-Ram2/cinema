@@ -98,12 +98,12 @@ $mail = new PHPMailer();
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'mbhoni814@gmail.com';
+$mail->Username = 'your email';
 $mail->Password = 'idqe jstc txeq xbrj';  // Change this to your correct password or app password
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
-$mail->setFrom('mbhoni814@gmail.com', 'Online Cinema');
+$mail->setFrom('your email', 'Online Cinema');
 $mail->addAddress($user_email);
 $mail->isHTML(true);
 $mail->Subject = 'Your Cinema Booking Confirmation';
