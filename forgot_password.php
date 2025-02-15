@@ -40,12 +40,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'mbhoni814@gmail.com';
+        $mail->Username = 'your email';
         $mail->Password = 'idqe jstc txeq xbrj';  // Change this to your correct password or app password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
-        $mail->setFrom('mbhoni814@gmail.com', 'Online Cinema');
+        $mail->setFrom('@gmail', 'Online Cinema');
         $mail->addAddress($email);
 
         $mail->isHTML(true);
