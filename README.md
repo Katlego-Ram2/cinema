@@ -33,5 +33,5 @@ A dynamic web-based cinema booking system developed using **PHP**, **MySQL**, **
 ### 1. Clone or Download This Project
 
 ```bash
-git clone https://github.com/your-username/cinema-booking.git
+g[it clone https://github.com/your-username/cinema-booking.git
 cd cinema-booking
